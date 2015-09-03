@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <h1>hiiii</h1>
+
+    <ul>
+      <% texas.each do |contact| %>
+        <li> <a href="<%= [contact["last_name"], contact["first_name"]].join("-").downcase %>.html"><%= contact["first_name"] %> <%= contact["last_name"] %></a> -  <%= contact["email"] %></li>
+      <% end %>
+    </ul>
+  </body>
+</html>

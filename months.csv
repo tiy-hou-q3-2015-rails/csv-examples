@@ -1,0 +1,13 @@
+Month Name,Days of Month,Awesome
+January,31,FALSE
+February,28,FALSE
+March,31,TRUE
+April,30,TRUE
+May,31,TRUE
+June,30,TRUE
+July,31,FALSE
+August,31,FALSE
+September,30,FALSE
+October,31,TRUE
+November,30,FALSE
+December,31,TRUE
